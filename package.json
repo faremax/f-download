@@ -1,0 +1,27 @@
+{
+  "name": "f-download",
+  "main": "download.min.js",
+  "version": "1.0.0",
+  "description": "File downloading in browser",
+  "scripts": {
+    "build": "terser index.js -c -m -o index.min.js --source-map"
+  },
+  "keywords": [
+    "files",
+    "dataURL",
+    "blob",
+    "download"
+  ],
+  "license": "MIT",
+  "author": "faremax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndme/download.git"
+  },
+  "files": [
+    "download.min.js"
+  ],
+  "dependencies": {
+    "terser": "^4.8.0"
+  }
+}
