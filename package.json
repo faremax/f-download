@@ -21,7 +21,7 @@
   "files": [
     "download.min.js"
   ],
-  "dependencies": {
+  "dev-dependencies": {
     "terser": "^4.8.0"
   }
 }
