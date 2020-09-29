@@ -8,11 +8,11 @@ File downloading in browser
 
 ### Usage
 
-`import download from 'f-download`
+`import download from 'f-downloads`
 
 or
 
-`const download = require('f-download')`
+`const download = require('f-downloads')`
 
 ### Parameters
 
@@ -44,10 +44,8 @@ download(data, fileName, mimeType);
 
     var str= "hello world",	arr= new Uint8Array(str.length);
     str.split("").forEach(function(a,b){
-
-arr[b]=a.charCodeAt();
-});
-
+        arr[b]=a.charCodeAt();
+    });
     download( arr, "textUInt8Array.txt", "text/plain" );
 
 #### html string

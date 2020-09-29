@@ -1,7 +1,7 @@
 {
-  "name": "f-download",
-  "main": "download.min.js",
-  "version": "1.0.0",
+  "name": "f-downloads",
+  "main": "index.js",
+  "version": "1.0.2",
   "description": "File downloading in browser",
   "scripts": {
     "build": "terser index.js -c -m -o index.min.js --source-map"
@@ -18,9 +18,6 @@
     "type": "git",
     "url": "https://github.com/rndme/download.git"
   },
-  "files": [
-    "download.min.js"
-  ],
   "dev-dependencies": {
     "terser": "^4.8.0"
   }
